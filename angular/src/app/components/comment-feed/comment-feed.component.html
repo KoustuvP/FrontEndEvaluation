@@ -1,0 +1,10 @@
+<div class="comment-feed-wrapper">
+    <div class="comment-feed">
+        <h1 class="t-c">Comment Feed</h1>
+        <button class="t-c" (click)="resetCommentFeed()">Reset comment feed</button>
+        <input type="text" (keyup)="onSearch($event)"/>
+        <app-comment *ngFor=" let comment of comments " [comment]="comment"></app-comment>
+        <app-comment-form class="t-c"></app-comment-form>
+    </div>
+</div>
+      

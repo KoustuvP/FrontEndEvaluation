@@ -1,0 +1,6 @@
+<div class="commen-form-wrapper">
+  <form #commentForm="ngForm" (ngSubmit)="onAddReply(commentForm.value)">
+    <input ngModel name="text" type="text"/><button type= "submit">Reply</button>
+  </form>
+
+</div>

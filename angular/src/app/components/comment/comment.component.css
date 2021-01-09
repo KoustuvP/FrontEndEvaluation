@@ -1,0 +1,14 @@
+.comment-text {
+    box-sizing: border-box;
+    border: 4px solid silver;
+    text-align: center;
+    padding: 13px 60px;
+    border-radius: 4px
+}
+
+button {
+    border: none;
+    outline: none;
+    margin-right: 5px;
+}
+
